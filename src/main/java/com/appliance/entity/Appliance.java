@@ -41,5 +41,6 @@ public class Appliance {
 	@Temporal(TemporalType.DATE)
 	private Date dateBought;
 	
-	
+	@Column(name = "userid")
+	private Integer userid;
 }
